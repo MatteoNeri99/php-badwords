@@ -22,7 +22,8 @@ l'Italia chiamò.
 Stringiamci a coorte,
 siam pronti alla morte.
 Siam pronti alla morte,
-l'Italia chiamò!"
+l'Italia chiamò!";
+
 
 
 ?>
@@ -37,7 +38,10 @@ l'Italia chiamò!"
 </head>
 <body>
 
-<p> <?php echo $inno ?></p>
+
+
+
+<p> <?php echo $inno ?> <br> <?php echo "lunghezza paragrafo:" . strlen($inno) ?> </p>
     
 </body>
 </html>
