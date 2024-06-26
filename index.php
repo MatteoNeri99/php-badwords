@@ -25,7 +25,7 @@
     Siam pronti alla morte,
     l'Italia chiamò!";
 
-   $inno = str_replace( $_GET["censura"] , "***" , $inno );
+   $inno = str_ireplace( $_GET["censura"] , "***" , $inno );
 
 ?>
 
@@ -49,9 +49,6 @@
 <input type="text"  name="censura" id="censura" placeholder="scrivi la parola da censurare">
 <button type="submit">avvia la censura</button>
     
-
-
-
 </form>
 
 </body>
